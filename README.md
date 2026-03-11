@@ -41,6 +41,7 @@ Data format
         ├── Frame_1.jpg
         ├── Frame_2.jpg
         └── ...
+```text
 You can use utils/VideosToFrames.py to generate Video Frames.
 
 ## Test

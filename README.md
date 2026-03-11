@@ -17,7 +17,10 @@ Since underwater videos involve scarce paired data and mismatched physical prior
 ## Checkpoints
 in the 'checkpoints' foloder.
 
-## Data format
+## Data Format
+
+```text
+Data format
 ├── Images
 │   ├── Image_1.jpg
 │   ├── Image_2.jpg

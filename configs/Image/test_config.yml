@@ -1,0 +1,17 @@
+#### general settings
+MODEL:
+  image_model_name: 'net_image'
+  n_feats: 16
+
+TESTING:
+  gpu_ids: [0]
+  checkpoint_path: './checkpoints'
+  result_path: './results/'
+
+#### datasets
+DATASETS:
+  test:
+    dataset_name: 'LSUI'
+    raw_root: '../../../share/UIE/datasets/test'
+    size: [320, 240]
+    use_shuffle: false
